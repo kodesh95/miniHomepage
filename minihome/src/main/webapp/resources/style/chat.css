@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Gowun Dodum', sans-serif;
+	background-color: #f1f1f1;
+}
+
+.chatcover {
+	border-radius: 9px;
+	background-color: #CDB1B1;
+	padding: 0.8em;
+	position: absolute;
+	top: 0.8em;
+	left: 0.8em;
+	right: 0.8em;
+	bottom: 0.8em;
+}
+
+.chatdot {
+	border-radius: 9px;
+	border: 2px dashed #BFA0A0;
+	padding: 0.8em;
+	position: absolute;
+	top: 0.8em;
+	left: 0.8em;
+	right: 0.8em;
+	bottom: 0.8em;
+}
+
+.chatbox {
+	background-color: #eeeeee;
+	border-radius: 9px;
+	position: absolute;
+	top: 0.6em;
+	left: 0.6em;
+	right: 0.6em;
+	bottom: 0.6em;
+	padding: 0.3em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.chat-container {
+	background-color: white;
+	border: 1px solid #ccc;
+	margin: 10px auto;
+	width: 350px;
+	height: 450px;
+	overflow-y: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+#chatmessagearea{
+	scrollbar-color: #fcf5f7 #e2acb9;
+}
+
+
+
+.nickdiv, .senddiv {
+	margin: 3px;
+}
+
+.chat-msg {
+	border: 1px solid #ccc;
+	margin-top: 8px;
+	margin-right: 8px;
+	margin-left: 8px;
+	border-radius: 9px;
+	display: flex;
+	justify-content: center;
+	padding: 0.2em;
+}
+
+
+.chat-time{
+	font-size: 10px;
+	justify-content: right;
+	text-align: right;
+	margin-right: 10px;
+}
+
+
+
+input[type="button" i] {
+	background-color: #CEB0B0;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 9px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+input[type="button" i]:hover {
+	background-color: #976A6A;
+}

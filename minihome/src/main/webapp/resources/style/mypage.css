@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap');
+
+h1{
+    background-color: white;
+	border-radius: 9px;
+	border: 5px solid #FFEFEF;
+	margin: 20px auto;
+	position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+}
+
+body {
+	background-color: #f1f1f1;
+	background-size: 100px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 16px;
+	/** 기본 폰트 설정 */
+	font-family: "Noto Sans KR", sans-serif;	
+}
+span{
+    font-size: 15px;
+}
+
+input, #mail_Select{
+    font-size: 17px;
+}
+
+
+.bookcover {/*제일큰부분*/
+	max-width: 1400px; 
+	max-height: 800px;
+	background-color: #CDB1B1;
+	border-radius: 9px;
+	border: 1px solid #738186;
+	width:65vw;
+	height:80vh;
+	margin: 50px auto;
+	position: relative;
+	
+}
+
+.bookdot {/*커버꾸미기*/
+	border-radius: 9px;
+	border: 2px dashed #BFA0A0;
+	padding: 0.8em;
+	position: absolute;
+	top: 0.6em;
+	left: 0.6em;
+	right: 0.6em;
+	bottom: 0.6em;
+}
+
+.main-container{
+	border-radius: 10px;
+	background-color: #eeeeee;
+	max-width:100%;
+	max-width: 100%;
+	width:100%;
+	height: 100%;
+	display:flex;
+	flex-direction:column;
+	text-align: center;
+	align-items:center;
+	margin-top: 0 auto;
+    font-family: "Noto Sans KR", sans-serif;
+    overflow: auto;
+}    
+
+.main-container.main{
+	width:768px;
+	max-width: 70%;
+	max-width: 60%;
+}
+
+
+#modify, #cancel, #exit {
+    margin-top: 2em;
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;    
+    max-width: 60px;
+	width: 10vw;
+	/* margin-bottom: 0.9rem; */
+	font-size: 1rem;
+	padding: 0.4rem;
+	background-color: #dbcaca;
+	border-radius: 9px;
+	border: 1px solid #BFA0A0;
+	cursor: pointer;
+	text-align:center;
+	align-items:center;
+	color: #8E6868;
+}
+
+
+table{
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+tr{
+    height: 60px;
+}
+
+input{
+    font-size: 16px;
+}
+
+#gender{
+    font-size: 17px;
+}
+
+#modify:hover {
+	background-color: #8E6868;
+	color: #FFEFEF;
+}
+
+#cancel:hover {
+	background-color: #8E6868;
+	color: #FFEFEF;
+}
+
+#exit:hover {
+	background-color: #8E6868;
+	color: #FFEFEF;
+}

@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+.top-buttons {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#mypageButton, #logoutButton {
+  margin-left: 10px; 
+  padding: 5px 10px;
+  background-color: #CEB0B0; 
+  color: white; 
+  border: none; 
+  border-radius: 9px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+#mypageButton:hover,
+#logoutButton:hover {
+  background-color: #976A6A; 
+}
+
+#chatbtn{
+  padding: 5px 10px;
+  background-color: #CEB0B0; 
+  color: white; 
+  border: none; 
+  border-radius: 9px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+
+body {
+	background-color: #f1f1f1;
+	background-size: 100px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 16px;
+	/** 기본 폰트 설정 */
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+.bookcover {/*제일큰부분*/
+	max-width: 1400px; 
+	max-height: 800px;
+	background-color: #CDB1B1;
+	border-radius: 9px;
+	border: 1px solid #738186;
+	width:65vw;
+	height:80vh;
+	margin: 50px auto;
+	position: relative;
+}
+
+.bookdot {/*커버꾸미기*/
+	border-radius: 9px;
+	border: 2px dashed #BFA0A0;
+	padding: 0.8em;
+	position: absolute;
+	top: 0.6em;
+	left: 0.6em;
+	right: 0.6em;
+	bottom: 0.6em;
+}
+
+.page {/*영역나누기*/
+	background-color: #eeeeee;
+	border-radius: 9px;
+	position: absolute;
+	top: 0.6em;;
+	left: 0.6em;
+	right: 0.6em;
+	bottom: 0.6em;
+	display: flex;
+	padding: 0.7em;
+}
+
+
+.content-container1 {/*박스*/
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid #cdcdcd;
+	overflow: hidden;
+}
+
+
+
+
+.menu-container {/*카테고리 박스*/
+	flex: 0.15;
+	
+}
+
+.menu-button #homeButton,#profileButton,#diaryButton,#guestButton {/*버튼설정1*/
+	max-width: 80px;
+	width: 5vw;
+	text-align: left;
+	margin-bottom: 0.9rem;
+	font-size: 1rem;
+	font-family: "NeoDunggeunmo";
+	padding: 0.4rem;
+	background-color: #CDB1B1;
+	color: white;
+	border-radius: 0 5px 5px 0;
+	border: 1px solid #BFA0A0;
+	cursor: pointer;
+}
+
+.menu-button:first-child {/*버튼설정2*/
+	margin-top: 3rem;
+}
+
+a button:hover {/*버튼설정3*/
+	background-color: #8E6868;
+	color: #FFEFEF;
+}
+
+#guestButton{
+	background-color: #976A6A;
+	color: #FFEFEF;
+}
+
+
+
+
+/*방명록*/
+.guestbook-box{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.guestbook-content{
+	max-width: 100%;
+	max-height: 100%;
+	margin: 1.5rem;
+
+}
+
+
+.guestbook-scrollbox{
+	overflow: auto;
+    margin: 1.5rem;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    text-decoration: none;
+	
+}
+.guestbook-box{
+	 margin: 1.5rem;
+	 border: 1px solid #cdcdcd;
+	
+	
+}
+
+
+#guestbookText{
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+}
+
+#guestbookButton{
+	flex-direction: column;
+	border-radius: 10px;
+	background-color: #976A6A;
+	border: 1px solid #cdcdcd;
+	color: #FFEFEF;
+	padding: 0.3em 0.7em;
+}
+
